@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dictionary</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        form {
+            font-size: 30px;
+        }
+
+        body {
+            background-color: lightblue;
+            pading: 5px 5px 5px 5px;
+        }
+
+        #wrapper {
+            background: url(google.png);
+            background-size: contain;
+            padding: 100px 100px 100px 100px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(69,62,62);
+        }
+            .menu a{
+                text-decoration: none;
+                color: rgb(14, 7, 7);
+                padding:  150px 160px;
+                font-size: 20px;
+                position:relative;
+            }
+            .menu a:before{
+                content:'';
+                position: absolute;
+                top:0;
+                left: 0;
+                width: 100%;
+                transition: 0.4s;
+            }
+            .menu a:hover:before{
+                width:80%;
+            }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <img src="spg.jpg" width="300px" height="300px" style="float: right;">
+        <h1>GOOGLE</h1>
+        <form autocomplete="on">
+            <input type="text" id="name" name="name" placeholder="Search.." style="font-size: xx-large;">
+            <button type="button" onclick="alert('Do you want to receive notifications')" style="font-size: 
+                xx-large;"> Enter
+                <img src="search.jpg" width="50px" height="37px" style="float:right;">
+        </button>
+        </form><br>
+    </div><br>
+    <div class="menu">
+        <a href="a">| Discover |</a>
+        <a href="a">| Search |</a>
+        <a href="a">| Saved|</a>
+    </div>
+</body>
+
+</html>
+ 
